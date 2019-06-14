@@ -1,0 +1,41 @@
+
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Amatic SC',
+    cursive;
+    box-sizing: border-box;
+}
+body {
+    background-color:white;
+}
+#wrapper {
+    max-width:1000px;
+    margin: 0 auto;
+    background-color:rgb(238, 241, 241);
+}
+header img {
+width:100%;
+display:block;
+}
+nav {
+    background-color:grey;
+}
+a.menu {
+    display: inline-block;
+    width: 14%;
+    padding:15px 30px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+a.menu:hover {
+    border-bottom: solid 5px black;
+}
+.active {
+    border-bottom: solid 5px black;
+    }
+
+footer {
+    text-align: center;
+}
